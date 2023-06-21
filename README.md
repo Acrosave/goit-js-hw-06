@@ -1,3 +1,3 @@
 ### Enlace al proyecto
 
-https://acrosave.github.io/goit-js-hw-06.git/
+https://acrosave.github.io/goit-js-hw-06/
