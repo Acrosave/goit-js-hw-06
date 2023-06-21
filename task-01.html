@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
     <link rel="stylesheet" href="css/common.css" />
+    <style>
+      li {
+        padding-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
-
     <ul id="categories">
       <li class="item">
         <h2>Animals</h2>
-
-        <ul>
+        <ul id="categoriesAnimal">
           <li>Cat</li>
           <li>Hamster</li>
           <li>Horse</li>
@@ -23,8 +26,7 @@
       </li>
       <li class="item">
         <h2>Products</h2>
-
-        <ul>
+        <ul id="categoriesProducts">
           <li>Bread</li>
           <li>Prasley</li>
           <li>Cheese</li>
@@ -32,8 +34,7 @@
       </li>
       <li class="item">
         <h2>Technologies</h2>
-
-        <ul>
+        <ul id="categoriesTechnologies">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -42,7 +43,6 @@
         </ul>
       </li>
     </ul>
-
-    <script src="js/task-01.js" type="module"></script>
+    <script defer src="js/task-01.js" type="module"></script>
   </body>
 </html>
