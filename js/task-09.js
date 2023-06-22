@@ -1,4 +1,3 @@
-document.querySelector('.color').textContent = getRandomHexColor();
 const bodyChange = document.querySelector('.change-color');
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
@@ -7,4 +6,5 @@ function getRandomHexColor() {
 }
 bodyChange.addEventListener('click', () => {
   document.body.style.backgroundColor = getRandomHexColor();
+  document.querySelector('.color').innerText = getRandomHexColor();
 });
